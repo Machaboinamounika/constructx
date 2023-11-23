@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/constructx/static/css/main.52d9da21.css",
+    "main.js": "/constructx/static/js/main.0b9242cc.js",
+    "static/media/bg1.jpg": "/constructx/static/media/bg1.a078285e533cd97cc649.jpg",
+    "static/media/service2.png": "/constructx/static/media/service2.429f81648dc1ea2aa8ff.png",
+    "static/media/video2.mp4": "/constructx/static/media/video2.cd727e1fa55b0dcad806.mp4",
+    "static/media/fa-solid-900.ttf": "/constructx/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/service1.jpg": "/constructx/static/media/service1.2855ee915ec0d9240167.jpg",
+    "static/media/fa-brands-400.ttf": "/constructx/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/loginpage.jpg": "/constructx/static/media/loginpage.b1a4a609e031b0b5d8f0.jpg",
+    "static/media/fa-solid-900.woff2": "/constructx/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/constructx/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/constructx/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/about1.jpg": "/constructx/static/media/about1.fc06a3fb8ec2af08dd22.jpg",
+    "static/media/construction.jpg": "/constructx/static/media/construction.9b861e3918ddf3d577b8.jpg",
+    "static/media/flats.webp": "/constructx/static/media/flats.fd96aa9065c1ee641500.webp",
+    "static/media/manor-house.webp": "/constructx/static/media/manor-house.49eb3e2f1a37e0553686.webp",
+    "static/media/co-operative-housing.webp": "/constructx/static/media/co-operative-housing.84c44dc17afc2575bcd0.webp",
+    "static/media/fa-regular-400.woff2": "/constructx/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/villa.webp": "/constructx/static/media/villa.7f034ae08150996c60d0.webp",
+    "static/media/penthouse.jpg": "/constructx/static/media/penthouse.cecf9f69fc4d1be7b258.jpg",
+    "static/media/revicons.eot": "/constructx/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/constructx/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/fa-v4compatibility.ttf": "/constructx/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/revicons.woff": "/constructx/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "/constructx/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/constructx/index.html",
+    "main.52d9da21.css.map": "/constructx/static/css/main.52d9da21.css.map",
+    "main.0b9242cc.js.map": "/constructx/static/js/main.0b9242cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d9da21.css",
+    "static/js/main.0b9242cc.js"
+  ]
+}
