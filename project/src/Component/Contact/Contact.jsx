@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { MDBInput, MDBCheckbox, MDBBtn, MDBValidation, MDBValidationItem, MDBTextArea, MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
 
 export default function Contact() {
@@ -30,9 +31,11 @@ export default function Contact() {
 
             <MDBValidationItem feedback=''>
               <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' /> 
+              <Link to = "/usercomponent"> 
               <MDBBtn type='submit' color='primary' block className='my-3'>
                 Send
               </MDBBtn>
+              </Link>
             </MDBValidationItem>
           </MDBValidation>
         </MDBCardBody>

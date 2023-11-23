@@ -47,6 +47,7 @@ import UserLoginComponent from "./pages/UserLoginComponent";
 import SignUp from './pages/SignUp';
 import Flats from "./Component/Type of Houses/Flats";
 import ForgotPasswordPage from "./pages/ForgotPassword";
+import UserComponent from "./Component/UserComponent";
 
 const Layout = () => {
   return (
@@ -80,6 +81,8 @@ const router = createBrowserRouter(
       { path:"/login", element:<Login/>},
       { path:"/flats", element:<Flats/>},
       {path:"/forgotpassword", element:<ForgotPasswordPage/>},
+      { path:"/usercomponent", element:<UserComponent/>},
+      { path: "/usercomponent", element: <UserComponent /> },
       // {path: "/listEmployee", element: <ListEmployee />},
     ],
   }]

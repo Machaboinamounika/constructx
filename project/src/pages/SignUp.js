@@ -10,7 +10,7 @@ import {
 }
 from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
-import APIService from '../Services/APIService';
+import APIService from '../Component/APIService';
 
 function SignUp() {
     const [signUpCreds, setSignUpCreds] = useState({
@@ -35,43 +35,6 @@ function SignUp() {
     const handleChange = (field, value) => {
         setSignUpCreds((prevSignUpCreds) => ({...prevSignUpCreds, [field]: value}));
     }
-
-// const toggleShowPassword = () => {
-//   setShowPassword(!showPassword);
-// };
-  
-    // const validateForm = () => {
-    //   let formErrors = {};
-    //   let formIsValid = true;
-  
-    //   if (!firstName) {
-    //     formIsValid = false;
-    //     formErrors['firstName'] = '*First name is required';
-    //   }
-  
-    //   if (!lastName) {
-    //     formIsValid = false;
-    //     formErrors['lastName'] = '*Last name is required';
-    //   }
-  
-    //   if (!email) {
-    //     formIsValid = false;
-    //     formErrors['email'] = '*Email is required';
-    //   }
-  
-    //   if (!password) {
-    //     formIsValid = false;
-    //     formErrors['password'] = '*Password is required';
-    //   }
-  
-    //   if (password !== confirmPassword) {
-    //     formIsValid = false;
-    //     formErrors['confirmPassword'] = '*Passwords do not match';
-    //   }
-  
-    
-    // }
-
 
     const validateFirstName = (firstName) => {
         const regex = /^[a-zA-Z]+$/;
@@ -109,6 +72,7 @@ function SignUp() {
         }
         APIService.saveSignUpCreds(signUpCreds).then((response) => {
             console.log(response);
+            alert('Your registration is successful');
         })
         .catch((error) => {
             console.log(error);
@@ -147,9 +111,14 @@ function SignUp() {
           <div className='d-flex flex-row justify-content-center mb-4'>
             <MDBCheckbox name='flexCheck' id='flexCheckDefault' label='I agree all statements in Terms of service' />
           </div>
+          
+          
+           <Link to="/usercomponent">
           <MDBBtn className='mb-4 w-100 gradient-custom-4' size='lg' disabled={!firstName || !lastName || !email || !password || !confirmPassword}
           onClick={handleSubmit}
           >Register</MDBBtn>
+          </Link>
+
           <p class="text-center text-muted mt-5 mb-0">Have already an account? <Link to = "/login"><a href="#!" class="fw-bold text-body"><u>Login here</u></a></Link></p>
           </MDBCardBody>
       </MDBCard>

@@ -100,7 +100,7 @@ const Login = () =>{
                         </div>
                         
                         
-                        <MDBInput wrapperClass='mb-4' label='username' id='form1' type='text'/>
+                        
                         <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLg' type='email' size="lg"/>
                         <MDBInput wrapperClass='mb-4' label='Password' id='formControlLg' type='password' size="lg"/>
 
@@ -140,7 +140,6 @@ const Login = () =>{
 
                         <p className="text-center mt-3">or:</p>
 
-                  <MDBInput wrapperClass='mb-4' label='Username' id='form1' type='text'/>
                   <MDBInput wrapperClass='mb-4' label='Email' id='form1' type='email'/>
                   <MDBInput wrapperClass='mb-4' label='Password' id='form1' type='password'/>
                   <MDBInput wrapperClass='mb-4' label='Specialized_in' id='form1' type='text'/>
@@ -150,7 +149,7 @@ const Login = () =>{
                    </div>
 
                    <MDBBtn className="mb-4 w-100">
-                   <Link to="/database" style={{ color: '#FFF' }}>Sign Up</Link>
+                   <Link to="/database" style={{ color: '#FFF' }}>Sign In</Link>
                    </MDBBtn>
 
                 </MDBTabsPane>

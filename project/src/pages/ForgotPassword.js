@@ -24,9 +24,12 @@ const ForgotPasswordPage = () => {
   };
 
   return (
-    <div>
+    <div style={{ display: 'flex', justifyContent: 'top', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
+      <img src="https://www.tradefairdates.com/logos/constructech_logo_1057.png" alt="Constructechx Logo" />
+      <br></br>
+      <br></br>
       <h1>Forgot Password</h1>
-      <p>Please enter your email address to reset your password.</p>
+      <p style={{ marginTop: '30px' }}>Please enter your email address to reset your password.</p>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -34,7 +37,7 @@ const ForgotPasswordPage = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <button type="submit" style={{ marginTop: '20px' }}>Submit</button>
       </form>
       {errorMessage && <p>{errorMessage}</p>}
     </div>

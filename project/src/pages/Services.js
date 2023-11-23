@@ -3,6 +3,9 @@ import { Card, Button, Carousel, CardBody,Row, Col } from 'react-bootstrap';
 import design1 from '../assets/design1.jpg';
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import construction from '../assets/construction.jpg';
+import renovation from '../assets/renovation.jpg';
+import preconstruction from '../assets/construction.jpg';
 
 // ...
 
@@ -64,7 +67,7 @@ return (
         </Row>
         <Row style={{display:'flex', justifyContent:"center", textAlign:"center",alignItems:"center"}}>
         <Col>
-        <img src={design1} alt="our mission" style={{ width: '50%', height: '50%' }}/>
+        <img src={renovation} alt="our mission" style={{ width: '50%', height: '50%' }}/>
         </Col>
         </Row>  
     </div>
@@ -91,7 +94,7 @@ return (
     </Row>
     <Row style={{display:'flex', justifyContent:"center", textAlign:"center",alignItems:"center"}}>
     <Col>
-    <img src={design1} alt="our mission" style={{ width: '50%', height: '50%' }}/>
+    <img src={construction} alt="our mission" style={{ width: '50%', height: '50%' }}/>
     </Col>
     </Row>  
 </div> 
@@ -117,7 +120,7 @@ return (
 </Row>
 <Row style={{display:'flex', justifyContent:"center", textAlign:"center",alignItems:"center"}}>
 <Col>
-<img src={design1} alt="our mission" style={{ width: '50%', height: '50%' }}/>
+<img src={preconstruction} alt="our mission" style={{ width: '50%', height: '50%' }}/>
 </Col>
 </Row>  
 </div>
@@ -144,9 +147,7 @@ return (
       </Col>
     </Row>
     <Row style={{display:'flex', justifyContent:"center", textAlign:"center",alignItems:"center"}}>
-    <Col>
-    <img src={design1} alt="our mission" style={{ width: '50%', height: '50%' }}/>
-    </Col>
+    
     </Row>  
 </div>
 </CardBody>

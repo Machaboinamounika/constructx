@@ -2,6 +2,9 @@ import React from "react";
 import SlideShows from "../Component/SlideShows";
 import { Card, Button } from 'react-bootstrap';
 import image1 from '../assets/service1.jpg';
+import design1 from '../assets/design1.jpg';
+import construction from '../assets/construction.jpg';
+import renovation from '../assets/renovation.jpg';
 import { Link } from 'react-router-dom';
 const Home = () => {
     return (
@@ -22,8 +25,8 @@ const Home = () => {
         </div>
     <div className="services"><h1 id="service">Services</h1></div>
     <div className="position-relative" style={{display: "flex", direction: "row", padding:"1rem",margin:"50px", justifyContent: "space-evenly"}}>
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={image1} />
+        <Card style={{ width: '18rem', marginRight: '20px' }}>
+            <Card.Img variant="top" src={design1} />
             <Card.Body>
                 <Card.Title>Designing</Card.Title>
                 <Card.Text>
@@ -32,8 +35,8 @@ const Home = () => {
                 <Link ><a href="#designing"><Button variant="primary">Go somewhere</Button></a></Link>
             </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={image1} />
+        <Card style={{ width: '18rem', marginRight: '20px' }}>
+            <Card.Img variant="top" src={renovation} />
             <Card.Body>
                 <Card.Title>Renovation</Card.Title>
                 <Card.Text>
@@ -42,8 +45,8 @@ const Home = () => {
                 <Link to="/renovation"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={image1} />
+        <Card style={{ width: '18rem', marginRight: '20px' }}>
+            <Card.Img variant="top" src={construction} />
             <Card.Body>
                 <Card.Title>Construction</Card.Title>
                 <Card.Text>
@@ -54,7 +57,7 @@ const Home = () => {
                 </Link>
             </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', marginRight: '20px' }}>
             <Card.Img variant="top" src={image1} />
             <Card.Body>
                 <Card.Title>Pre Construction</Card.Title>
@@ -64,7 +67,7 @@ const Home = () => {
                 <Link to="/preconstruction"><Button variant="primary">Go somewhere</Button></Link>
             </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', marginRight: '20px' }}>
             <Card.Img variant="top" src={image1} />
             <Card.Body>
                 <Card.Title>Maintanence</Card.Title>
